@@ -24,8 +24,7 @@ class YourDataGroup(BaseDataGroup):
         )
 
 
-
-        dataset = BaseVersionedDataSet("demo", metadata_assen, "group_title")
+        dataset = BaseVersionedDataSet("demo", [metadata_assen], "group_title")
 
         super(YourDataGroup, self).__init__(dataset)
         # pass multiple datasets to init if there are more datasets
