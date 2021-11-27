@@ -24,7 +24,7 @@ setup(
 
     entry_points={
         "asreview.datasets": [
-            "newDataset = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
+            "newDataset = asreviewcontrib.datasets_ftm.datasets_ftm:YourDataGroup"
         ]
 
     },
