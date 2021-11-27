@@ -14,6 +14,13 @@ to resemble the [different expected data
 files](https://www.ftm.nl/dossier/shell-papers#wob-verzoeken). 
 
 
+# Plug-in
+
+The mock-up data can be selected in the front-end of ASReview version 0.17 **(not v0.18)**:
+
+![alt text](https://user-images.githubusercontent.com/36502709/143688518-817cdd20-486d-4e02-b426-bb088bf0cd6a.png)
+
+
 # License
 The content in this repository is published under the MIT license.
 
