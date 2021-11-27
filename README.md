@@ -13,10 +13,28 @@ subsets](https://github.com/asreview-ftm-hackathon/Data/tree/main/split_preproce
 to resemble the [different expected data
 files](https://www.ftm.nl/dossier/shell-papers#wob-verzoeken). 
 
+# Getting Started
 
-# Plug-in
+Clone the repository, navigate to the folder in the CMD, and install the FTM-pluging with
 
-The mock-up data can be selected in the front-end of ASReview version 0.17 **(not v0.18)**:
+```bash
+pip install .
+```
+
+or
+
+```bash
+pip install git@github.com:{USER_NAME}/{REPO_NAME}.git
+```
+
+and replace `{USER_NAME}` and `{REPO_NAME}` by your own details. 
+
+
+# Usage
+
+Install ASReview version 0.17 and launh the softare via the CMD.
+
+The mock-up data can be selected under plug-ins:
 
 ![alt text](https://user-images.githubusercontent.com/36502709/143688518-817cdd20-486d-4e02-b426-bb088bf0cd6a.png)
 
