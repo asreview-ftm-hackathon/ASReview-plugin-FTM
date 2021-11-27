@@ -22,10 +22,11 @@ class YourDataGroup(BaseDataGroup):
             "topic": ""
         }
         )
-
+        
         metadata_drenthe = BaseDataSet.from_config({
             "dataset_id": "data_drenthe_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_mockup.csv",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/15fb29ae372b3b610ad34e33c79aa68f621213ba/data/data_drenthe_mockup.csv",
+            #"url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_mockup.csv",
             "img_url": "https://www.provincie.drenthe.nl/publish/pages/120213/logo-provincie-drenthe.png",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -38,7 +39,9 @@ class YourDataGroup(BaseDataGroup):
         }
         )
 
-        dataset = BaseVersionedDataSet("demo", [metadata_assen, metadata_drenthe], "group_title")
+        assen = BaseVersionedDataSet("test1", [metadata_assen], "test2")
+        drenthe = BaseVersionedDataSet("test3", [metadata_drenthe], "test4")      
 
-        super(YourDataGroup, self).__init__(dataset)
+
+        super(YourDataGroup, self).__init__(assen, drenthe)
         # pass multiple datasets to init if there are more datasets
