@@ -36,8 +36,7 @@ Install ASReview version 0.17 and launh the softare via the CMD.
 
 The mock-up data can be selected under plug-ins:
 
-![alt text](https://user-images.githubusercontent.com/36502709/143688518-817cdd20-486d-4e02-b426-bb088bf0cd6a.png)
-
+![alt text](https://user-images.githubusercontent.com/36502709/143719180-6bfb533c-903b-4c74-93ac-da5f2ee74f39.png)
 
 # License
 The content in this repository is published under the MIT license.
