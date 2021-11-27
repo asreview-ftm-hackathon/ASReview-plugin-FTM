@@ -22,11 +22,10 @@ class YourDataGroup(BaseDataGroup):
             "topic": ""
         }
         )
-        
+
         metadata_drenthe = BaseDataSet.from_config({
             "dataset_id": "data_drenthe_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/15fb29ae372b3b610ad34e33c79aa68f621213ba/data/data_drenthe_mockup.csv",
-            #"url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_mockup.csv",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_mockup.csv",
             "img_url": "https://www.provincie.drenthe.nl/publish/pages/120213/logo-provincie-drenthe.png",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
