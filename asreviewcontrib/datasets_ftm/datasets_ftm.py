@@ -9,8 +9,8 @@ class YourDataGroup(BaseDataGroup):
     def __init__(self):
 
         metadata_assen = BaseDataSet.from_config({
-            "dataset_id": "data_assen_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_assen_mockup.csv",
+            "dataset_id": "data_assen_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_assen_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/assen.png",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -24,8 +24,8 @@ class YourDataGroup(BaseDataGroup):
         )
         
         metadata_drenthe = BaseDataSet.from_config({
-            "dataset_id": "data_drenthe_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_mockup.csv",
+            "dataset_id": "data_drenthe_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_drenthe_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/drenthe.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -40,8 +40,8 @@ class YourDataGroup(BaseDataGroup):
 
         
         metadata_amsterdam = BaseDataSet.from_config({
-            "dataset_id": "data_amsterdam_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_amsterdam_mockup.csv",
+            "dataset_id": "data_amsterdam_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_amsterdam_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/amsterdam.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -56,8 +56,8 @@ class YourDataGroup(BaseDataGroup):
 
 
         metadata_nh = BaseDataSet.from_config({
-            "dataset_id": "data_nh_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_nh_mockup.csv",
+            "dataset_id": "data_nh_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_nh_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/nh.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -71,8 +71,8 @@ class YourDataGroup(BaseDataGroup):
         )
         
         metadata_minfin = BaseDataSet.from_config({
-            "dataset_id": "data_minfin_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_minfin_mockup.csv",
+            "dataset_id": "data_minfin_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_minfin_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/minfin.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
@@ -86,8 +86,8 @@ class YourDataGroup(BaseDataGroup):
         )
         
         metadata_minienw = BaseDataSet.from_config({
-            "dataset_id": "data_minienw_mockup",
-            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_minienw_mockup.csv",
+            "dataset_id": "data_minienw_demo",
+            "url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/data/data_minienw_demo.csv",
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/minienw.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
