@@ -4,7 +4,7 @@ from pathlib import Path
 
 class YourDataGroup(BaseDataGroup):
     group_id = "your_data_group"
-    description = "Data files containing Mock-up data of the Shell-files."
+    description = "Data files containing demo data of the Shell-files."
 
     def __init__(self):
 
@@ -14,7 +14,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/assen.png",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Assen (Mock-up)",
+            "title": "Assen (demo)",
             "authors": [
             "FTM"
             ],
@@ -29,7 +29,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/drenthe.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Drenthe (Mock-up)",
+            "title": "Drenthe (demo)",
             "authors": [
             "FTM"
             ],
@@ -45,7 +45,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/amsterdam.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Amsterdam (Mock-up)",
+            "title": "Amsterdam (demo)",
             "authors": [
             "FTM"
             ],
@@ -61,7 +61,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/nh.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Noord-Holland (Mock-up)",
+            "title": "Noord-Holland (demo)",
             "authors": [
             "FTM"
             ],
@@ -76,7 +76,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/minfin.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Ministerie van Financien (Mock-up)",
+            "title": "Ministerie van Financien (demo)",
             "authors": [
             "FTM"
             ],
@@ -91,7 +91,7 @@ class YourDataGroup(BaseDataGroup):
             "img_url": "https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/minienw.PNG",
             "link": "https://www.ftm.nl/dossier/shell-papers",
             "license": "",
-            "title": "Ministerie van Infrastructuur en Waterstaat (Mock-up)",
+            "title": "Ministerie van Infrastructuur en Waterstaat (demo)",
             "authors": [
             "FTM"
             ],
