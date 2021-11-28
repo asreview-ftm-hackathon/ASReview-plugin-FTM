@@ -36,7 +36,7 @@ Install ASReview version 0.17 and launh the softare via the CMD.
 
 The mock-up data can be selected under plug-ins:
 
-![alt text](https://user-images.githubusercontent.com/36502709/143719180-6bfb533c-903b-4c74-93ac-da5f2ee74f39.png)
+![alt text](https://raw.githubusercontent.com/asreview-ftm-hackathon/ASReview-plugin-FTM/main/images/screenshot_plugin.png)
 
 # License
 The content in this repository is published under the MIT license.
